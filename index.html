@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наш ресторан - Дом лучшей еды</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fa-solid fa-shapes"></i>
+            </div>
+            
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#dishes">Блюда</a></li>
+                    <li><a href="#menu">Меню</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#chefs">Повара</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-contacts">
+                <div class="phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+999-888-76-54</span>
+                    <small>Свяжитесь с нами для бронирования</small>
+                </div>
+                <a href="#book" class="btn btn-orange">Заказ столика</a>
+            </div>
+
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h4>Добро пожаловать</h4>
+            <h1>В наш ресторан</h1>
+            <p class="subtitle">ДОМ ЛУЧШЕЙ ЕДЫ</p>
+            <a href="#menu" class="btn btn-orange">VIEW MENU</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container features-grid">
+            <div class="feature-card">
+                <div class="icon"><i class="fa-solid fa-utensils"></i></div>
+                <h3>Магическая <span>Атмосфера</span></h3>
+                <p>В нашем заведении царит магическая атмосфера наполненная вкусными ароматами</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon"><i class="fa-solid fa-utensils"></i></div>
+                <h3>Лучшее качество <span>Еды</span></h3>
+                <p>Качество нашей Еды - отменное!</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon"><i class="fa-solid fa-utensils"></i></div>
+                <h3>Недорогая <span>Еда</span></h3>
+                <p>Стоимость нашей Еды зависит только от ее количества. Качество всегда на высоте!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / History Section -->
+    <section class="history" id="about">
+        <div class="container history-grid">
+            <div class="history-text">
+                <h2>Наша <span>История</span></h2>
+                <p>Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров от ближайшего населенного пункта.</p>
+                
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="number">93</span>
+                        <span class="label">Напитки</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="number">206</span>
+                        <span class="label">Еда</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="number">71</span>
+                        <span class="label">Закуски</span>
+                    </div>
+                </div>
+            </div>
+            <div class="history-images">
+                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80" alt="Restaurant Interior" class="img-1">
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80" alt="Restaurant Table" class="img-2">
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner Section -->
+    <section class="promo-banner">
+        <div class="banner-overlay"></div>
+        <div class="container banner-content">
+            <h2>Отпразднуйте в одном из самых лучших ресторанов.</h2>
+            <h3>Только в этом месяце бизнес-ланч от 250 ₽</h3>
+            <a href="#book" class="btn btn-orange">ЗАКАЗ СТОЛИКА</a>
+        </div>
+    </section>
+
+    <!-- Dishes Section -->
+    <section class="dishes" id="dishes">
+        <div class="container">
+            <h2 class="section-title">Наши <span>Блюда</span></h2>
+            <div class="dishes-grid">
+                <div class="dish-large-img">
+                    <img src="https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=800&q=80" alt="Pizza">
+                </div>
+                <div class="dish-list">
+                    <div class="dish-item">
+                        <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=200&q=80" alt="Burger">
+                        <div class="dish-info">
+                            <h4>Гамбургер мини</h4>
+                        </div>
+                        <div class="dish-dots"></div>
+                        <div class="dish-price">220 ₽</div>
+                    </div>
+                    <div class="dish-item">
+                        <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=200&q=80" alt="Burger">
+                        <div class="dish-info">
+                            <h4>Гамбургер мини</h4>
+                        </div>
+                        <div class="dish-dots"></div>
+                        <div class="dish-price">220 ₽</div>
+                    </div>
+                    <div class="dish-item">
+                        <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=200&q=80" alt="Burger">
+                        <div class="dish-info">
+                            <h4>Гамбургер мини</h4>
+                        </div>
+                        <div class="dish-dots"></div>
+                        <div class="dish-price">220 ₽</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Cards Section -->
+    <section class="our-menu" id="menu">
+        <div class="menu-bg">
+            <h2>Наше меню</h2>
+        </div>
+        <div class="container menu-cards">
+            <div class="card">
+                <span class="tag">RECOMMENDED</span>
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=400&q=80" alt="Burger">
+                    <div class="price-badge">$42</div>
+                </div>
+                <h3>Гамбергер макси</h3>
+                <p>Максимально толстый слой мяса</p>
+                <button class="btn btn-brown">ЗАКАЗАТЬ</button>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=400&q=80" alt="Burger">
+                    <div class="price-badge">$42</div>
+                </div>
+                <h3>Гамбергер макси</h3>
+                <p>Максимально толстый слой мяса</p>
+                <button class="btn btn-brown">ЗАКАЗАТЬ</button>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=400&q=80" alt="Burger">
+                    <div class="price-badge">$42</div>
+                </div>
+                <h3>Гамбергер макси</h3>
+                <p>Максимально толстый слой мяса</p>
+                <button class="btn btn-brown">ЗАКАЗАТЬ</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial">
+        <div class="container">
+            <p class="review-text">"Я надолго запомню мой День рождения, проведенный в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за комплемент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам..."</p>
+            <div class="author">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Николай">
+                <p class="role">Посетитель</p>
+                <p class="name">Николай</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Галерея <span>Блюд</span></h2>
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=400&q=80" alt="Gallery Image 1">
+                <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=400&q=80" alt="Gallery Image 2">
+                <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=400&q=80" alt="Gallery Image 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- Chefs Section -->
+    <section class="chefs" id="chefs">
+        <div class="container">
+            <h2 class="section-title">Наши <span>Повара</span></h2>
+            <div class="chefs-grid">
+                <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=400&q=80" alt="Chef 1">
+                <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=400&q=80" alt="Chef 2">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80" alt="Chef 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Наш Ресторан. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
